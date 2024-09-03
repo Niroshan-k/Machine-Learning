@@ -1,16 +1,3 @@
-'''from playsound import playsound
-from gtts import gTTS
-
-def playaudio(audio):
-    playsound(audio)
-
-def convert_to_audio(text):
-    audio = gTTS(text=text, lang='en')
-    audio.save("textaudio.mp3")
-    playaudio("textaudio.mp3")
-
-convert_to_audio("Hello world, my name is Lakshan.")'''
-
 import pygame
 from gtts import gTTS
 
